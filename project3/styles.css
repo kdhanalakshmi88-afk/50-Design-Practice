@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  
+}
+@font-face {
+  font-family: Avenir;
+  src: url('AvenirRegular.ttf');
+}
+body{
+    padding:20px;
+    color: #252525;
+    height: auto;
+}
+
+.hero-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   justify-content: space-evenly;
+   margin:100px 0px;
+  
+}
+.heroimage{margin: auto;}
+h1{font-size: 88px;}
+p{font-size: 26px;opacity:80%;margin-bottom: 16px;}
+button{font-size: 18px;padding: 16px 32px;color: #FFFFFF;
+   background-color: #252525;border-radius: 16px;}
+.header-content p{width: 500px;}
+.header-content {
+  padding-left: 80px;
+}

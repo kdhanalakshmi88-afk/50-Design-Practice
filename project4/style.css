@@ -1,0 +1,58 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face {
+      font-family: Avenir;
+    src: url('Avenir\AvenirRegular\ AvenirRegular.ttf');
+}
+body{
+    color: #252525;
+    height:auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+.heroimage{
+    margin-top: 67px;
+    
+}
+.heroimage img{width:90%;}
+.maincontent
+{
+    padding:80px 100px;
+}
+.hero-content p{
+    margin:32px 0px;
+}
+.hero-content
+{
+    margin-bottom: 88px;
+}
+h1{
+    font-family: Avenir;
+    font-size:64px;   
+}
+p{
+    font-size:24px;
+    opacity: 80%;
+}
+section img{
+    font-size: 32px;
+    opacity:55%;
+    margin-bottom: 5px;
+}
+button{
+    padding:18px 48px;
+    border-radius: 16px;
+    color:#FFFFFF;
+    background-color: #252525;
+}
+.section-one
+{
+    margin-bottom: 40px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conditional operator</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let age = 18;
+let text = "You can Not drive";
+
+if (age >= 18) {
+  text = "You can drive";
+  console.log(text);
+}
+
+let age1 = 16;
+let country = "USA";
+let text1 = "You can Not drive!";
+
+if (country == "USA") {
+  if (age1 >= 16) {
+    text1 = "You can drive!";
+    console.log(text1);
+  }
+}
+
+let age2 = 16;
+let country2 = "USA";
+let text2 = "You can Not drive!";
+
+if (country2 == "USA" && age2 >= 16) {
+  text2 = "You can drive!";
+     console.log(text2);
+}
+let hour=14;
+if (hour < 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+console.log(greeting);
+
+let time5 = 22;
+if (time5 < 10) {
+  greeting = "Good morning";
+} else if (time5 < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+console.log(greeting);
+
+ let x = 5;
+
+console.log(x == 8); // equals false
+console.log(x != 8); // equals true
+</script>
+</html>

@@ -1,0 +1,22 @@
+*
+{
+   
+    box-sizing: border-box;
+}
+main{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    height:100vh;
+}
+section
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+
+}
+section img{
+    width: 95%;
+    height: auto;
+}

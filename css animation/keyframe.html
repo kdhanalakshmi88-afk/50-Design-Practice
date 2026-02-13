@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframe</title>
+</head>
+<body>
+    <header>
+        <h1>CSS effects are visual changes applied to elements:</h1>
+            On hover,
+            On load,
+            On interaction.
+            <h1>They help create:</h1>
+            Smooth UI,
+            Modern design,
+            Better UX.
+</header>
+
+    
+    <button>hover transform.</button>
+    <button class="hover-button">hover transition</button>
+   <div class="animationclass">hover only traslate </div>
+     <div class="card">hover opacity</div>
+      <div class="rotate">hover rotate</div>
+      <div class="skew">hover skew</div>
+        <div class="box-shadow">hover box-shadow</div>
+        <div><a href="#">hover link</a></div>
+    <style>
+   body{margin: auto;padding-left: 50px;}
+        .animationclass{
+        height:200px;
+        width:200px;
+        background-color:red;
+        translate: 100px 50px;
+    }
+    div{margin-bottom:20px;}
+    .animationclass:hover{
+        translate: 100px 100px;
+        background-color: blueviolet;
+    }
+    button:hover {
+  background-color: red;
+  transform: translateX(200px);
+}
+.hover-button {
+  background: blue;
+ transition: margin-right 4s ease-in-out 1s;
+}
+
+.hover-button:hover {
+  background: rgb(107, 4, 73);
+  transform: translateX(100px);
+}
+.card {
+    width:200px;
+    height: 200px;
+    border: 5px solid green;
+    background-color: yellow;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  opacity: 0.5;
+}
+.rotate{
+    width:200px;
+    height: 200px;
+    border: 5px solid green;
+    background-color: yellow;
+  transition: transform 0.3s ease-in-out;
+}
+.rotate:hover {
+  transform: rotate(90deg);
+}
+.skew
+{
+  width:500px;
+  height:300px;
+  border:10px dotted orangered;
+  background-color: rgb(57, 30, 210);
+  transition : transform 2s linear;
+}
+.skew:hover {
+  transform: skewX(50deg);
+}
+.box-shadow
+{
+  width:300px;
+  height:300px;
+  background-color: darkolivegreen;
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
+  transition: box-shadow 0.5s linear
+}
+.box-shadow:hover{
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.8);
+}
+a {
+  position: relative;
+  text-decoration: none;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width 0.3s;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+    </style>
+</body>
+</html>

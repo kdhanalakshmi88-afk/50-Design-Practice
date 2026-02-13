@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array index</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+function removeelement(array, index) {
+  for (var i = index; i < array.length - 1; i++) {
+    array[i] = array[i + 1];
+  }
+  array.length = array.length - 1;
+}
+removeelement(fruits, 2);
+
+console.log(fruits,fruits.length)
+
+const fruit=["banana", "orange","apple"]
+function addelement(array,index)
+{
+  for(var i=index;i<=array.length;i++ )
+  {
+     console.log("addelement="+array.length);
+      console.log("addelement="+i);
+      
+  }
+   array.length=array.length+1;
+    console.log("addelement="+array.length);
+     array[i]="kiwi"
+     console.log("add 4th element="+array.length) 
+    if(array.length==i)
+  {
+    array[i]="kiwi"
+    console.log("addelement="+array[i]);
+      console.log("add 4th element="+array.length) 
+  }
+}
+
+addelement(fruit,fruit.length)
+console.log(fruit,fruit.length)
+
+let fru = ["apple", "banana", "cherry"];
+fru[1] = "blueberry";
+console.log(fru[1])
+
+
+const fruit1=["banana", "orange","apple"]
+function editelement(array,index)
+{
+  for(var i=index;i<=array.length;i++ )
+  {
+     console.log("editelement="+array.length);
+      console.log("editelement="+i);
+      
+  }
+   array.length=array.length+1;
+    console.log("editelement="+array.length);
+     array[i]="kiwi"
+     console.log("add 4th element="+array.length) 
+    if(array.length==i)
+  {
+    array[i]="kiwi"
+    console.log("editelement="+array[i]);
+      console.log("add 4th element="+array.length) 
+  }
+}
+
+editelement(fruit1,fruit1.length)
+console.log(fruit1,fruit1.length)
+    </script>
+</html>

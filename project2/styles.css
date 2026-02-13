@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+@font-face{
+    font-family: Avenir;
+    src: url('AvenirRegular.ttf');
+}
+body{
+    font-family: Avenir ;
+    color: #252525;
+    padding: 20px;
+    height: auto;
+}
+main{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 500px 500px 500px;
+    grid-template: ;
+}
+header{
+    width:31%;
+    margin: auto;
+}
+
+button{background-color: black;
+    color:white;padding:18px 48px; 
+    border-radius: 16px;font-size: 18px;font-style: normal;
+}
+
+h1{font-size: 64px;font-weight: 800;margin-bottom: 15px;}
+p{font-size: 26px;margin-bottom: 20px;width:80%;}
+
+h1,p{font-weight: 400;}

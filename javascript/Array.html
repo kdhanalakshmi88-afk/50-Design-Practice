@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Array</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+     console.log("delete mango length of array=" +fruits.pop());
+     
+    console.log("length of array=" +fruits.length);
+
+     console.log("length of array string=" +fruits.toString());
+
+     var fru = fruits.at(2);
+    console.log("Get the third element of fruits using at=" +fru);
+
+     var fru = fruits.push("mango");
+    console.log("add mango length of array=" +fru);
+
+    var fru = fruits[3];
+    console.log("Get the third element of fruits using[]" +fru);
+
+    console.log("Edit Array first index will be deleted=" +fruits.shift());
+
+    console.log("add kiwi fruit to first index =" +fruits.unshift("kiwi"));
+
+      console.log("length of array string=" +fruits.toString());
+    
+    fruits[0] = "strawberry";
+      console.log("add strawbeery using index value=" +fruits.toString());
+
+        fruits[3] = "banana";
+      console.log("add banana to 3rd index using index value=" +fruits.toString());
+
+     fruits[fruits.length] = "kiwi"
+     console.log("add kiwi using length=" +fruits);
+
+
+</script>
+</html>
