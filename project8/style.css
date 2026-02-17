@@ -1,0 +1,22 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    display:flex;
+  
+    text-align: center;
+}
+.content-sec
+{
+    text-align: center;
+}
+.img-sec
+{
+    display:flex;
+    flex-direction: row;
+  
+}
