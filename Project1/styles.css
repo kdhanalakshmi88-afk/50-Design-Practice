@@ -3,20 +3,28 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
-    font-family: Avenir ;
-    color: #252525;
-    padding: 20px;
-    height: auto;
+@font-face {
+    font-family: Avenir;
+    src: url('../Avenir/AvenirRegular/AvenirRegular.ttf');
 }
-button{background-color: black;
-    color:white;padding:18px 48px; 
-    border-radius: 16px;font-size: 18px;font-style: normal;}
-
-header{margin: auto; text-align: center;width:530px;margin-bottom: 20px;}
-
-img{margin-left: 7px;margin-top: 7px;}
-h1{font-size: 60px;font-style: bold;font-weight: 800;margin-bottom: 15px;}
-p{font-size: 24px;font-style: italic;margin-bottom: 15px;}
-
-h1,p{font-weight: 400;}
+body{
+    font-family:Avenir;
+    width:100%;
+    height:500svh;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+header{
+    margin: auto;
+    text-align: center;
+}
+.header-container
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap: 20px;
+}
